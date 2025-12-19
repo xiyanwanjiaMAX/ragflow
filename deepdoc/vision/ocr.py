@@ -566,7 +566,7 @@ class OCR:
             except Exception:
                 model_dir = snapshot_download(repo_id="InfiniFlow/deepdoc",
                                               local_dir=os.path.join(get_project_base_directory(), "rag/res/deepdoc"),
-                                              local_dir_use_symlinks=False)
+                                              local_dir_use_symlinks=False,timeout=120)
                 
                 if settings.PARALLEL_DEVICES > 0:
                     self.text_detector = []

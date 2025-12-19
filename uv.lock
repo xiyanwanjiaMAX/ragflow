@@ -2495,7 +2495,7 @@ wheels = [
 
 [[package]]
 name = "huggingface-hub"
-version = "0.25.2"
+version = "0.23.0"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "filelock" },
@@ -2506,9 +2506,9 @@ dependencies = [
     { name = "tqdm" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/df/fd/5f81bae67096c5ab50d29a0230b8374f0245916cca192f8ee2fada51f4f6/huggingface_hub-0.25.2.tar.gz", hash = "sha256:a1014ea111a5f40ccd23f7f7ba8ac46e20fa3b658ced1f86a00c75c06ec6423c", size = 365806, upload-time = "2024-10-09T08:32:41.565Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/63/9b/7ba10dafb38e4e4ea19f616087722db564f1fe8551b3825cb507351ba085/huggingface_hub-0.23.0.tar.gz", hash = "sha256:7126dedd10a4c6fac796ced4d87a8cf004efc722a5125c2c09299017fa366fa9", size = 333496, upload-time = "2024-05-02T12:46:36.828Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/64/09/a535946bf2dc88e61341f39dc507530411bb3ea4eac493e5ec833e8f35bd/huggingface_hub-0.25.2-py3-none-any.whl", hash = "sha256:1897caf88ce7f97fe0110603d8f66ac264e3ba6accdf30cd66cc0fed5282ad25", size = 436575, upload-time = "2024-10-09T08:32:39.166Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/21/2b/516f82c5ba9beb184b24c11976be2ad5e80fb7fe6b2796c887087144445e/huggingface_hub-0.23.0-py3-none-any.whl", hash = "sha256:075c30d48ee7db2bba779190dc526d2c11d422aed6f9044c5e2fdc2c432fdb91", size = 401185, upload-time = "2024-05-02T12:46:34.064Z" },
 ]
 
 [[package]]
@@ -5548,7 +5548,7 @@ requires-dist = [
     { name = "hanziconv", specifier = "==0.3.2" },
     { name = "html-text", specifier = "==0.6.2" },
     { name = "httpx", extras = ["socks"], specifier = ">=0.28.1,<0.29.0" },
-    { name = "huggingface-hub", specifier = ">=0.25.0,<0.26.0" },
+    { name = "huggingface-hub", specifier = "==0.23.0" },
     { name = "infinity-emb", specifier = ">=0.0.66,<0.0.67" },
     { name = "infinity-sdk", specifier = "==0.6.6" },
     { name = "itsdangerous", specifier = "==2.1.2" },
